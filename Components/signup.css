@@ -1,0 +1,72 @@
+.container {
+    max-width: 96%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px sold   rgb(20, 89, 155);
+    border-radius: 5px;
+    align-items: center;
+    background-color: black;
+    color: rgb(20, 89, 155);;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    font-weight: bold;
+    padding: 0.5rem;
+    color:#0796EF; ;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 10px;
+  }
+  
+  .button1 {
+    width: 114.25px;
+  height: 49.98px;
+  border: 0.5px solid #0796EF;
+  color: white;
+  background-color: black;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.71px;
+  letter-spacing: 0.03em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .button1:hover {
+    background-color:#0796EF;
+  }
+  .h1{
+
+    text-align: center;
+    font-size:larger;
+    font-weight: 400;
+    color: white;
+    color: #0796EF;
+    margin-top: 2rem;
+  }
+  .error{
+    color: red;
+  }
