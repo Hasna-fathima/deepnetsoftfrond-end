@@ -22,7 +22,7 @@ const Login = () => {
 
       
       try {
-        response = await axios.post('http://localhost:3000/api/user/admin/login', { email, password });
+        response = await axios.post('https://deepnet-backend.onrender.com/api/user/admin/signin', { email, password });
         if (response.status === 200 && response.data.user && response.data.user.role === 'admin') {
           console.log('Admin login successful!');
           localStorage.setItem('_id', response.data.user._id); 
@@ -36,7 +36,7 @@ const Login = () => {
 
       
       try {
-        response = await axios.post('http://localhost:3000/api/user/signin', { email, password });
+        response = await axios.post('https://deepnet-backend.onrender.com/api/user/signin', { email, password });
         if (response.status === 200) {
           console.log('User login successful!');
           localStorage.setItem('userId',response.data.userId); 

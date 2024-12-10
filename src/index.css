@@ -39,6 +39,7 @@
   margin-top: 1.5rem;
 }
 
+
 .nav-link:hover {
   color: rgb(20, 89, 155);
 }
@@ -151,7 +152,7 @@ align-items: center;
     padding: 15px 0;
   }
   .Home {
-    width: 90%;
+    width: 100%;
   }
 
   .home1 h1 {
