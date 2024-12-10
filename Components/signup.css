@@ -1,7 +1,6 @@
-.container {
-    max-width: 96%;
+.form {
+
     margin: 0 auto;
-    padding: 20px;
     border: 1px sold   rgb(20, 89, 155);
     border-radius: 5px;
     align-items: center;

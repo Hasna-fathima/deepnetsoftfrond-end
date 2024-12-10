@@ -61,7 +61,7 @@ const Login = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='form'>
       <h1 className='h1'>Login</h1>
       <Formik
         initialValues={{ email: '', password: '' }}
