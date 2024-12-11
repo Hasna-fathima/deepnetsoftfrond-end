@@ -39,7 +39,7 @@ const UserSignup = () => {
         
         localStorage.setItem('userId', userId);
 
-        navigate('/login'); 
+        navigate('/'); 
       } else {
         throw new Error('Failed to signup');
       }

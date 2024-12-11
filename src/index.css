@@ -32,9 +32,8 @@
   font-family: Oswald;
   font-size: 16px;
   font-weight: 400;
-  line-height: 23.71px;
+  line-height: 6.71px;
   letter-spacing: 0.03em;
-  text-align: left;
   margin-right: 1rem;
   margin-top: 1.5rem;
 }
@@ -61,7 +60,7 @@ align-items: center;
 .navbar-toggler {
   z-index: 1000;
   position: absolute;
-  right: 30px;
+  right: 38px;
 }
 
 .Home {
@@ -178,7 +177,7 @@ footer{
 
 @media (max-width: 768px) {
   header{
-    padding: 15px 0;
+    padding: 6px 0;
   }
   .Home {
     width: 100%;
@@ -206,7 +205,7 @@ footer{
 
 @media (max-width: 480px) {
   .header{
-    padding: 15px 0;
+    padding: 6px 0;
   }
   .home1 h1 {
     font-size: 30px;
